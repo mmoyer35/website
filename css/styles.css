@@ -1,0 +1,279 @@
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+div {
+  background-color: #E4F9F5;
+  padding: 0;
+  margin: 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 25%;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 25%;
+  bottom: 50%;
+}
+
+
+.trees {
+  position:absolute;
+  width: 75px;
+  right: 33%;
+  bottom: 30.5%;
+
+}
+.trees2 {
+  position:absolute;
+  width: 100px;
+  left: 33%;
+  bottom: 30.5%;
+
+}
+
+.header-class {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.self-photo {
+  border-radius: 50%;
+  width: 250px;
+}
+
+.skills {
+    background-color: white;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 562.5%;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Staatliches', cursive;
+  color: #66BFBF;
+  font-weight: normal;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+h3 {
+  font-family: 'Varela Round', sans-serif;
+  color: #11999E;
+  margin-bottom: 50px;
+    background-color: white;
+}
+
+p {
+  margin: 0 auto;
+
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+  line-height: 2;
+}
+
+.welcome-message {
+  width: 50%;
+  line-height: 2;
+  margin-top: 2rem;
+}
+
+a {
+  color: #11999E;
+    font-family: 'Staatliches', cursive;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.middle-container {
+  margin: 100px 0;
+  background-color: white;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 300px;
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px;
+  line-height: 2;
+
+}
+
+.profile {
+  background-color: white;
+}
+.pro {
+  text-decoration: underline;
+}
+
+.baseball-row {
+  width: 50%;
+  position: relative;
+  text-align: left;
+  margin: 100px auto 200px auto;
+  background-color: white;
+}
+
+.skill-row {
+  width: 50%;
+  position: relative;
+  text-align: left;
+  margin: 150px auto 200px auto;
+  background-color: white;
+}
+.final-text {
+    color: white;
+}
+
+.activity-row {
+  width: 50%;
+  position: relative;
+  margin: 100px auto;
+  background-color: white;
+}
+
+.geology-row {
+  width: 50%;
+  position: relative;
+  text-align: left;
+  margin: 150px auto 200px auto;
+  background-color: white;
+}
+
+.skills-paragraph {
+  background-color: white;
+}
+.programming-row {
+  width: 50%;
+  position: relative;
+  text-align: left;
+  margin-left: 30px;
+  margin: 150px auto 200px auto;
+  background-color: white;
+}
+
+.geology {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.baseball-player {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.programming {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.hiking {
+  width: 20%;
+  margin-right: 100px;
+}
+
+.mountain-2 {
+    width: 20%;
+    margin-right: 100px;
+}
+
+.astronomy {
+    width: 20%;
+    padding: 30px;
+}
+hr {
+  border-style: dotted none none none;
+  background-color: white;
+  border-width: 8px;
+  border-color: #cdd0cb;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.contact-button {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #59B7B7);
+  background-image: -moz-linear-gradient(top, #66BFBF, #59B7B7);
+  background-image: -ms-linear-gradient(top, #66BFBF, #59B7B7);
+  background-image: -o-linear-gradient(top, #66BFBF, #59B7B7);
+  background-image: -webkit-gradient(to bottom, #66BFBF, #59B7B7);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+  font-family: 'Varela Round', sans-serif;
+  width: 185px;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 12px;
+  -webkit-box-shadow: 1px 1px 6px 0 #000000;
+  -moz-box-shadow: 1px 1px 6px 0 #000000;
+  box-shadow: 1px 1px 6px 0 #000000;
+  text-shadow: 1px 1px 6px #000000;
+  border: solid #66BFBF 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-button:hover {
+  border: solid #66BFBF 1px;
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #2C8383);
+  background-image: -moz-linear-gradient(top, #66BFBF, #2C8383);
+  background-image: -ms-linear-gradient(top, #66BFBF, #2C8383);
+  background-image: -o-linear-gradient(top, #66BFBF, #2C8383);
+  background-image: -webkit-gradient(to bottom, #66BFBF, #2C8383);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.final-message {
+  margin-bottom: 75px;
+}
+
+.contact-me {
+  margin: 50px;
+    background-color: white;
+    padding: 20px 0;
+}
+
+.footer-link {
+  font-size: 2rem;
+  margin: auto 25px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+.resume-link{
+
+}
